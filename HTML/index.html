@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitungan Keliling dan Luas Segitiga</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Penghitungan Keliling dan Luas Segitiga</h1>
+
+        <div class="section">
+            <h2>Keliling Segitiga</h2>
+            <img src="../Assets/keliling_segitiga.png" alt="GambarSegitiga">
+            <p>Rumus: <strong>Keliling = a + b + c</strong></p>
+            <form id="formKeliling">
+                <label for="sisiA">Sisi a:</label>
+                <input type="number" id="sisiA" required>
+                <label for="sisiB">Sisi b:</label>
+                <input type="number" id="sisiB" required>
+                <label for="sisiC">Sisi c:</label>
+                <input type="number" id="sisiC" required>
+                <button type="button" onclick="hitungKeliling()">Hitung Keliling</button>
+                <button type="reset">Reset</button>
+            </form>
+            <div id="hasilKeliling"></div>
+        </div>
+
+        <div class="section">
+            <h2>Luas Segitiga</h2>
+            <img src="../Assets/luas_segitiga.jpg" alt="Gambar Segitiga">
+            <p>Rumus: <strong>Luas = 1/2 * alas * tinggi</strong></p>
+            <form id="areaForm">
+                <label for="alas">Alas:</label>
+                <input type="number" id="alas" required>
+                <label for="tinggi">Tinggi:</label>
+                <input type="number" id="tinggi" required>
+                <button type="button" onclick="hitungLuas()">Hitung Luas</button>
+                <button type="reset">Reset</button>
+            </form>
+            <div id="hasilLuas"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
