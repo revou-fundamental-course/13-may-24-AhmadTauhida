@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
@@ -39,14 +40,14 @@ button {
     padding: 10px 15px;
     margin: 5px;
     border: none;
-    background-color: lightgreen;
+    background-color: #4CAF50;
     color: white;
     border-radius: 4px;
     cursor: pointer;
 }
 
 button[type="reset"] {
-    background-color: red;
+    background-color: #f44336;
 }
 
 button:hover {
@@ -56,5 +57,5 @@ button:hover {
 #hasilKeliling, #hasilLuas {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #333; 
+    color: #333;
 }
